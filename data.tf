@@ -5,3 +5,4 @@ data "aws_ssm_parameter" "username" {
 data "aws_ssm_parameter" "password" {
   name = "${var.env}.${local.project_name}.rds.password"
 }
+#

@@ -22,6 +22,7 @@ resource "aws_security_group" "main" {
     protocol    = "tcp"
     cidr_blocks = var.sg_cidrs
   }
+  #
 
   egress {
     from_port        = 0
