@@ -9,4 +9,3 @@ variable "vpc_id" {}
 variable "sg_cidrs" {}
 variable "kms" {}
 variable "parameter_group_family" {}
-#
